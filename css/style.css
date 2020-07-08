@@ -5,7 +5,7 @@ Course: https://bangla2.programming-hero.com/
 Unit: Nine (9)
 */
 
-/* Carousel and Menubar */
+/* General Design */
 li {
     list-style: none;
 }
@@ -19,6 +19,8 @@ a:hover {
 section {
     margin-bottom: 100px;
 }
+
+/* Carousel and Menubar */
 #carousel-section {
     background-color: #F0FFF0;
 }
@@ -40,10 +42,31 @@ section {
     background: #21B573;
     border-radius: 33px;
 }
-.nav-item a {
-    color: #000000;
-    font-size: 16px;
-    line-height: 24px;
+.carousel-txt {
+    margin-top: 30px;
+}
+.nav-item:last-child {
+    padding: 1px 15px;
+    width: 100px;
+    height: 40px;
+    border: none;
+    color: white;
+    font-style: normal;
+
+    background: #21B573;
+    border-radius: 33px;
+}
+.nav-item:last-child a {
+    color: white;
+}
+.nav-link {
+    color: black!important;
+}
+.carousel-inner {
+    margin-top: 30px;
+}
+.carousel-txt p:first-child {
+    color: #fd511a;
 }
 .carousel-txt h1 {
     font-family: Poppins;
@@ -54,6 +77,9 @@ section {
 /* End of Section one | Carousel and Menu */
 
 /* Second Section | ICON */
+#icon-section h1+p {
+    color: #413960;
+}
 .icon-image {
     background-color: #F8FFFB;
     border-radius: 10px;
@@ -78,7 +104,23 @@ section {
 /* End of Section Two */
 
 /* Section Three */
-
+.card img {
+    padding: 15px 15px 0;
+}
+.card button {
+    padding: 10px;
+}
+.card-footer {
+    background: none;
+    border: none;
+}
+#third-section h1 {
+    color: #413960;
+    font-weight: bold;
+}
+#third-section h5 {
+    color: #413960;
+}
 /* End of Section Three */
 
 /* Section Four */
@@ -96,15 +138,40 @@ section {
     text-align: justify;
 }
 /* End of Section Four */
-/* Section Five | Contact us */
 
+/* Section Five | Subscribe */
+.subs-button {
+    padding: 15px 355px;
+    cursor: pointer;
+
+    width: 153px;
+    height: 43px;
+    border: none;
+    color: white;
+
+    background: #21B573;
+    border-radius: 33px;
+}
 /* End of Section five */
+
+
+/* Section Six | Contact us*/
+#contact-us {
+    background-color: rgba(0, 0, 0, 0.03);
+    padding: 50px;
+    margin-top: 220px;
+}
+/* ----- Contact us -------- */
+
 
 /* Footer Section */
 footer {
     background-color: #282531;
     color: white;
-    padding: 20px;
+    padding: 30px;
+    margin-top: 300px;
+}
+.copyright {
     margin-top: 50px;
 }
 .copyright span {
