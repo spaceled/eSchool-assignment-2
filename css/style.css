@@ -6,6 +6,9 @@ Unit: Nine (9)
 */
 
 /* General Design */
+h1, h2, h3, h4, h5, h6, p {
+    font-family: 'Poppins', sans-serif;
+}
 li {
     list-style: none;
 }
@@ -19,17 +22,25 @@ a:hover {
 section {
     margin-bottom: 100px;
 }
+/* Button Design */
+.button-design {
+    transition-duration: 0.4s;
+}
+.button-design:hover {
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0, 0, 0, 0.19);
+}
+/* end of Button */
 
 /* Carousel and Menubar */
 #carousel-section {
     background-color: #F0FFF0;
+    padding: 0 0 30px;
 }
 .logo-img {
     width: 118.07px;
     height: 29px;
 }
 .crousel-item {
-    padding: 20px 40px;
     width: 50%;
 }
 .carousel-btn {
@@ -44,6 +55,18 @@ section {
 }
 .carousel-txt {
     margin-top: 30px;
+}
+.carousel-txt h1 {
+    font-size: 48px;
+    line-height: 70px;
+    font-style: normal;
+    font-weight: bold;
+}
+.carousel-txt p {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 36px;
 }
 .nav-item:last-child {
     padding: 1px 15px;
@@ -105,14 +128,24 @@ section {
 
 /* Section Three */
 .card img {
-    padding: 15px 15px 0;
+    padding: 8px 10px 0;
 }
 .card button {
     padding: 10px;
 }
+.card-box-shadow {
+    box-shadow: 5px 5px 10px lightgrey;
+    border-radius: 20px;
+    border: none;
+}
 .card-footer {
     background: none;
     border: none;
+}
+.card-footer img {
+    width: 30px;
+    padding: 3px;
+    margin: 0 auto;
 }
 #third-section h1 {
     color: #413960;
@@ -141,21 +174,17 @@ section {
 
 /* Section Five | Subscribe */
 .subs-button {
-    padding: 15px 355px;
     cursor: pointer;
-
-    width: 153px;
-    height: 43px;
-    border: none;
     color: white;
+    border: none;
 
-    background: #21B573;
+    background: #21B573!important;
     border-radius: 33px;
 }
 /* End of Section five */
 
 
-/* Section Six | Contact us*/
+/* Section Six | Contact us */
 #contact-us {
     background-color: rgba(0, 0, 0, 0.03);
     padding: 50px;
@@ -163,6 +192,16 @@ section {
 }
 /* ----- Contact us -------- */
 
+/* Address Section | Seventh Section */
+.address {
+    background-color: #ffffff;
+    box-shadow: 5px 10px 15px;
+    transition-duration: 0.4s;
+}
+.address:hover {
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0, 0, 0, 0.19);
+}
+/* end of section seven */
 
 /* Footer Section */
 footer {
